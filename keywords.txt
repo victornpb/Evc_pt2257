@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map For IRremote
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Evc	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+evc_init	KEYWORD2
+evc_setVolume	KEYWORD2
+evc_setVolumeLeft	KEYWORD2
+evc_setVolumeRight	KEYWORD2
+evc_mute	KEYWORD2
+evc_off	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
