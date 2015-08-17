@@ -25,25 +25,25 @@ Volume Attenuation are expressed as unsigned integers
 e.g. : `21`  is set the attenuation to -21dB
 
 - `void evc_init();`  
-Start the I2C communication
+Start the I2C communication  
 *Call this on setup(); to ensure a reliable initialization, this will delay for 200ms.*
 
 - `void evc_setVolume(uint8_t dB);`  
 Set the attenuation on both channels (between 0dB to -79dB)
 
-- `void evc_setVolumeLeft(uint8_t dB);`
-Set the attenuation on the Left channel (between 0dB to -79dB)
+- `void evc_setVolumeLeft(uint8_t dB);`  
+Set the attenuation on the Left channel (between 0dB to -79dB)  
 Use this for implementing left/right balance offset.
 
-- `void evc_setVolumeRight(uint8_t dB);`
-Set the attenuation on the right channel (between 0dB to -79dB)
+- `void evc_setVolumeRight(uint8_t dB);`  
+Set the attenuation on the right channel (between 0dB to -79dB)  
 Use this for implementing left/right balance offset.
 
-- `void evc_mute(bool toggle);`
+- `void evc_mute(bool toggle);`  
 Set the attenuation on both channels to channel to -95dB  
 *Non documented behavior, but it will preserve the set Volume when mute is toggled.
 
-- `void evc_off();`
+- `void evc_off();`  
 Function OFF (-79dB)
 
 ----
