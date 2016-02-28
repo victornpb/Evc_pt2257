@@ -1,5 +1,5 @@
 # Evc_pt2257
-Arduino Library for using PT2257 - Electronic Volume Controller IC
+Arduino Library for using PT2257 - Electronic Volume Controller IC (a.k.a Digital Potentiometer)
 
 Connect the IC to the following pins, you can change it in the .c file.  
 Pull-up resistors are required on both pins (4K7 or 10K should be fine).  
