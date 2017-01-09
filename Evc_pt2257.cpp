@@ -1,8 +1,9 @@
-/*
-  Evc_pt2257.h - Library for using PT2257 - Electronic Volume Controller IC.
-  Created by Victor NPB, December 9, 2014.
-  https://github.com/victornpb/Evc_pt2257/
-*/
+/**
+ * Evc_pt2257.h - Library for using PT2257 - Electronic Volume Controller IC.
+ * December 9, 2014.
+ * @author Victor NPB
+ * @see https://github.com/victornpb/Evc_pt2257/
+ */
 
 #include "Arduino.h"
 #include "Evc_pt2257.h"
